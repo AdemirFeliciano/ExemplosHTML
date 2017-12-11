@@ -1,0 +1,100 @@
+
+<html>
+    <head>
+        <title>Excicio Formulário</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos/meuestilo.css">
+    </head>
+    
+    <body>
+        <h1 align="center"> Lider de Turma: Programador Web</h1>
+    <hr>
+    <h3>Dados Pessoas</h3>
+        <form>
+            <table class="borda">
+                <tr>
+                    <td  align="right"><label for="nome">Nome:</label></td>
+                    <td><input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required autofocus></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="endereco">Endereço:</label></td>
+                    <td><input type="text" name="endereco" id="endereco"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="sexo">Sexo:</label></td>
+                    <td>
+                    <label class="sexo"><input type="radio" value="masculino" name="sexo" checked>Masculino:</label>
+                    <label class="sexo"><input type="radio" value="feminino" name="sexo">Feminino:</label>
+                    <label class="sexo"><input type="radio" value="outros" name="sexo">Outros:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="data-nascimento">Data de Nascimento:</label></td>
+                    <td><input type="date" class="sexo" name="data-nascimento" id="data-nascimento"></td>
+                    <td><label for="idade">Idade:</label></td>
+                    <td><input type="number" name="idade" id="idade" min="18" max="70"></td>
+                </tr>
+                <tr>
+                    <td align="rigth"><label for="prifissão">Profissão:</label></td>
+                    <td>
+                        <select>
+                            <option disabled selected>Escolha sua Profissão</option>
+                            <option name="adm" id="adm">Administrador</option>
+                            <option name="contador" id="contador">Contador</option>
+                            <option name="programador" id="programador">Programador</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    <hr>
+    <h3>Intenções de Voto</h3>
+    <form>
+        <table>
+            <tr>
+                <td><label for="chapa">Chapa:</label></td>
+                <td>
+                    <select>
+                        <option disabled selected>Escolha a Chapa</option>
+                        <option name="xmem" id='xmem' >X-mem</option>
+                        <option name="ligadajustica" id="ligadajustica">Liga da Justiça</option>
+                        <option name="dbz" id="dbz">Dragon Ball Z</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="habilidades">Que habilidades a nova Gestão deve possuir?</td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label><input type="checkbox" name="forca" id="forca">Força</label>
+                    <label><input type="checkbox" name="agilidade" id="agilidade">Agilidade</label>
+                    <label><input type="checkbox" name="inteligencia" id="inteligencia">Inteligência</label>
+                    <label><input type="checkbox" name="forcamental" id="forcamental">Força Mental</label>
+                    
+                </td>
+            </tr>
+            
+                <tr>
+                    <td><label for="sugestao">Sugestão:</label></td>
+                    <td>
+                     
+                        <textarea name="sugestao" id="sugestao" rows="5" cols="40" maxlength='5' style="resize:none;"></textarea>
+                    </td>
+                        
+                </tr>
+           
+            <tr class="borda">
+                <td colspan="2" align="center">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                    <input type="button" value="Exibir" onclick="alert('Alerta')" >
+                </td>   
+            </tr>
+            
+        </table>
+    </form>
+    </body>
+</html>

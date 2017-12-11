@@ -1,0 +1,52 @@
+body{
+    background-color: #6666ff;
+    color: ivory;
+    
+        
+        
+}
+input, textarea, select{
+    color:crimson;
+    
+}
+setect{
+    border: none;
+}
+
+#endereco {
+    color: pink;
+    font-weight: bold; 
+} 
+
+.sexo{
+    color: purple;
+    font-weight: bold;
+    font-size: 16pt;
+    
+}
+table{
+    
+}
+
+.borda{
+    border-style: dashed;
+    text-align: right; 
+    font-family: "cosmic";
+    background-image: linear-gradient(blue,green);
+    font-style: italic;
+    text-decoration: line-through;
+    cursor: help;
+    animation-play-state:running;
+    align-items: center;
+    margin: 0 auto
+        
+}
+
+textarea{
+    background-image: url(../imagem/ademir.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+        
+        
+        
+}
