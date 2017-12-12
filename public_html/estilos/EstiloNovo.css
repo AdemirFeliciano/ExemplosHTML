@@ -1,0 +1,34 @@
+ *{
+                margin:0;
+                padding: 0;
+            }
+            
+            #div1{
+                background-color: lightblue;
+                width: 200px;
+                height: 300px;
+               float: left
+                
+              
+            }
+            #div2{
+                background-color: lightcoral;
+                width: 200px;
+                height: 300px;
+                float: right;
+                
+            }
+            #div3{
+                background-color: black;
+                width:200px ;
+                height: 300px;
+                float: right;
+                margin: auto
+                
+            }
+             #container{
+                background-color: yellowgreen;
+                width: 600px;
+                height: 400px;
+               
+            }
